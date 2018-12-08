@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+isort = "*"
+"flake8" = "*"
+
+[packages]
+django = "==2.0.8"
+channels = ">=2.1,<2.2"
+django-model-utils = "*"
+django-meta = "*"
+django-ckeditor = "*"
+django-knocker = {file = "https://github.com/nephila/django-knocker/archive/feature/channels-2.zip"}
+django-compressor = "*"
+pillow = "*"
+channels-redis = "*"
+
+[requires]
+python_version = "3.6"
